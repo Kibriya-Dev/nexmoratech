@@ -1,0 +1,93 @@
+.about {
+  background: #0a0a0a;
+  padding: 110px 32px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 72px;
+}
+
+.about-badge {
+  display: inline-block;
+  color: #facc15;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 7px 14px;
+  border: 1px solid rgba(250, 204, 21, 0.25);
+  border-radius: 100px;
+  background: rgba(250, 204, 21, 0.05);
+  margin-bottom: 22px;
+}
+
+.about-title {
+  font-family: "Space Grotesk", Arial, sans-serif;
+  font-size: clamp(1.9rem, 3vw, 2.4rem);
+  line-height: 1.25;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 24px;
+  letter-spacing: -0.01em;
+  max-width: 22ch;
+}
+
+.about-text {
+  color: #a1a1aa;
+  font-size: 16px;
+  line-height: 1.75;
+  max-width: 48ch;
+  margin-bottom: 20px;
+}
+
+.about-text:last-child {
+  margin-bottom: 0;
+}
+
+.about-principles {
+  display: flex;
+  flex-direction: column;
+}
+
+.principle {
+  padding: 28px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.principle:last-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.principle-title {
+  font-size: 16.5px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.principle-description {
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: #8b8b93;
+  max-width: 42ch;
+}
+
+@media (max-width: 900px) {
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 44px;
+  }
+
+  .about-title {
+    max-width: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .about {
+    padding: 72px 20px;
+  }
+}
