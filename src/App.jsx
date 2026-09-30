@@ -6,11 +6,13 @@ import Portfolio from "./components/Portfolio";
 import Process from "./components/Process";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import ThreeBackground from "./components/ThreeBackground";
 import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div style={{ position: "relative" }}>
+      <ThreeBackground />
       <Navbar />
       <Hero />
       <Services />
@@ -18,9 +20,7 @@ function App() {
       <Portfolio />
       <Process />
       <Contact />
-         <Footer />
-
-     
+      <Footer />
     </div>
   );
 }

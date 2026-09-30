@@ -55,12 +55,73 @@ function Contact() {
           </p>
 
           <div className="contact-details">
-            {/* TODO: replace with your real contact info */}
             <div className="contact-detail">
               <span className="detail-label">Email</span>
-              <span className="detail-value">nexmoratech@gmail.com</span>
+              <a href="mailto:noxmoratech@gmail.com" className="detail-value detail-link">
+                noxmoratech@gmail.com
+              </a>
             </div>
-            
+          </div>
+
+          {/* Social Links */}
+          <div className="contact-socials">
+            <span className="contact-socials-label">Follow us</span>
+            <div className="contact-socials-row">
+              <a
+                href="https://www.instagram.com/nexmoratech/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-social-btn"
+                aria-label="Instagram"
+              >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
+                </svg>
+                Instagram
+              </a>
+              <a
+                href="https://web.facebook.com/profile.php?id=61594880300685"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-social-btn"
+                aria-label="Facebook"
+              >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                </svg>
+                Facebook
+              </a>
+              <a
+                href="https://www.decodelabs.tech/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-social-btn"
+                aria-label="DecodeLabs"
+              >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                  <polyline points="16 18 22 12 16 6" />
+                  <polyline points="8 6 2 12 8 18" />
+                </svg>
+                DecodeLabs
+              </a>
+              <a
+                href="https://www.internee.pk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-social-btn"
+                aria-label="Internee.pk"
+              >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="2" y="7" width="20" height="14" rx="2" />
+                  <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+                  <line x1="12" y1="12" x2="12" y2="17" />
+                  <line x1="9" y1="14.5" x2="15" y2="14.5" />
+                </svg>
+                Internee.pk
+              </a>
+            </div>
           </div>
         </div>
 
